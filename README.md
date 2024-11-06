@@ -1,4 +1,4 @@
-
+Real-time and efficient polygonal mapping designed for humanoid robots.
 
 ## Install
 
