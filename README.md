@@ -7,8 +7,9 @@
 
 ### Dependencies
 This package depends on
-- [pyrealsense2]
-- [cupy]
+- pyrealsense2
+- cupy
+- ...
 
 ### Installation procedure
 It is assumed that ROS is installed.
