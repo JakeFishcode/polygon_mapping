@@ -55,7 +55,7 @@ First, ensure that the robot has an odometry system or another method for estima
 
 ### Camera Parameters
 
-This section includes parameters such as the serial number of the RealSense depth camera (especially important when using multiple cameras for mapping), depth image resolution, camera intrinsic parameters, etc. For the L515, adjusting several parameters can help improve the quality of the depth map.
+This section includes parameters such as the serial number of the RealSense depth camera (important when using multiple cameras), depth image resolution, camera intrinsic parameters, etc. For the L515, adjusting several parameters can help improve the quality of the depth map.
 
 ### Algorithm Parameters
 
