@@ -226,7 +226,7 @@ def main():
         # Initialize ROS package and get dataset paths
         rospack = rospkg.RosPack()
         package_path = rospack.get_path('polygon_mapping')
-        dataset_path = os.path.join(package_path, 'data/', 'dataset_1/')
+        dataset_path = os.path.join(package_path, 'data/', 'dataset_39/')
         rgb_images = sorted(glob.glob(dataset_path + 'rgb/*.png'))
         depth_images = sorted(glob.glob(dataset_path + 'depth/*.png'))
 
