@@ -68,3 +68,20 @@ Once all parameters are configured, you can run the mapping program with the fol
 ```bash
 rosrun polygon_mapping main.py
 ```
+
+## Citation
+
+If you find this code useful in your research, please consider citing our paper:
+[Real-Time Polygonal Semantic Mapping for Humanoid Robot Stair Climbing](https://arxiv.org/abs/2411.01919)
+
+```bash
+@misc{bin2024realtimepolygonalsemanticmapping,
+      title={Real-Time Polygonal Semantic Mapping for Humanoid Robot Stair Climbing}, 
+      author={Teng Bin and Jianming Yao and Tin Lun Lam and Tianwei Zhang},
+      year={2024},
+      eprint={2411.01919},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2411.01919}, 
+}
+```
