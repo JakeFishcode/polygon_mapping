@@ -69,7 +69,7 @@ Once all parameters are configured, you can run the mapping program with the fol
 rosrun polygon_mapping main.py
 ```
 
-## Citation
+## Citing
 
 If you find this code useful in your research, please consider citing our paper:
 [Real-Time Polygonal Semantic Mapping for Humanoid Robot Stair Climbing](https://arxiv.org/abs/2411.01919)
