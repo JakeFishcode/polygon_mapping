@@ -23,9 +23,7 @@ git clone https://github.com/BTFrontier/polygon_mapping.git
 ```
 
 2. Install dependent packages.
-```bash
-......
-```
+ 
 
 3. Build a package.
 ```bash
