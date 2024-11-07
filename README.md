@@ -1,10 +1,10 @@
 Real-time and efficient polygonal mapping designed for humanoid robots.
 
 ## Demo
-straight_stairs_mapping
+### straight_stairs_mapping
 ![straight_stairs_mapping](assets/straight_stairs_mapping.gif)
 
-spiral_stairs_mapping
+### spiral_stairs_mapping
 ![spiral_stairs_mapping](assets/spiral_stairs_mapping.gif)
 
 ## Install
