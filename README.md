@@ -82,7 +82,7 @@ If you find this code useful in your research, please consider citing our paper:
 ```bash
 @misc{bin2024realtimepolygonalsemanticmapping,
       title={Real-Time Polygonal Semantic Mapping for Humanoid Robot Stair Climbing}, 
-      author={Teng Bin,  Jianming Yao,  Tin Lun Lam and Tianwei Zhang},
+      author={Teng Bin and Jianming Yao and Tin Lun Lam and Tianwei Zhang},
       year={2024},
       eprint={2411.01919},
       archivePrefix={arXiv},
