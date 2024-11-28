@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import time
 import rospy
@@ -21,7 +21,7 @@ def nothing(x):
 def load_config(config_file):
     """Load configuration from a YAML file."""
     with open(config_file, 'r') as file:
-        config = yaml.safe_load(file)  
+        config = yaml.safe_load(file)
     return config
 
 def create_dataset_folder(base_path):
@@ -68,7 +68,7 @@ def main():
         depth_sensor = device.first_depth_sensor()
 
         # Set depth sensor options
-        preset_index = 0  
+        preset_index = 0
         depth_sensor.set_option(rs.option.visual_preset, preset_index)
 
         # Enable color and depth streams
@@ -105,7 +105,7 @@ def main():
             os.makedirs(os.path.join(dataset_path, "depth"), exist_ok=True)
             t_file_path = os.path.join(dataset_path, "transformation_matrix.txt")
 
-        # Main loop 
+        # Main loop
         while True:
             frames = pipeline.wait_for_frames()
             depth_frame = frames.get_depth_frame()

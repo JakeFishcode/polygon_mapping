@@ -16,7 +16,9 @@ Real-time and efficient polygonal mapping designed for humanoid robots.
 This package depends on
 - pyrealsense2
 - cupy
-- ...
+- shapely
+- scipy
+- scikit-image
 
 ### Installation procedure
 It is assumed that ROS is installed.
